@@ -1,24 +1,33 @@
-# README
+# Ruby on Rails Sample Application 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample application from (*Ruby on Rails tutorial*)[http://www.railstutorial.org/] by Michael Hartl
 
-Things you may want to cover:
+#License
 
-* Ruby version
+This software is covered by MIT's open software license
 
-* System dependencies
+## Getting Started 
 
-* Configuration
+To get started with this application clone this repo and install the necessary gems: 
 
-* Database creation
+```
+$ git clone 
+```
 
-* Database initialization
+Migrate the database:
 
-* How to run the test suite
+```
+rails db:migrate
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Run tests to make sure everything is installed correctly:
+```
+rails test
+```
+If the test suite passes, run the app by starting the server
+```
+rails server
+```
 
-* Deployment instructions
 
-* ...
+
