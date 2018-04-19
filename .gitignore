@@ -20,6 +20,9 @@
 /node_modules
 /yarn-error.log
 
+#Ignore spring files
+/spring/*.pid
+
 .byebug_history
 
 .DS_Store
